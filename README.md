@@ -13,7 +13,7 @@ Este projeto trata-se de um jogo da velha construido apenas com HTML, CSS e Java
 7. Se todas as células forem preenchidas e nenhum jogador vencer, o jogo empata.
 8. Para reiniciar o jogo, basta clicar novamente no botão "Começar".
 
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 - HTML5
 - CSS3
 - JavaScript
