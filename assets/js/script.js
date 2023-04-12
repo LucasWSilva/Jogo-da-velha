@@ -48,13 +48,14 @@ function disableRegion(element) {
   element.classList.remove('cursor-pointer')
   element.removeEventListener('click', handleBoardClick)
 }
-// Pinta as regiões onde o jogador venceu e mostra seu nome na tela
+// Pinta as regiões onde o jogador venceu e mostra seu nome na tela, e altera o botão "Começar" para "Reiniciar"
 function handleWin(regions) {
   regions.forEach(function (region) {
     document.querySelector('[data-region="' + region + '"]').classList.add('win')
   })
   const playerName = document.getElementById(turnPlayer).value
   document.querySelector('h2').innerHTML = playerName + ' venceu!'
+  document.querySelector('#start').innerHTML = '<svg width="24px" height="24px" viewBox="0 0 0.72 0.72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.36 0.09a0.27 0.27 0 1 1 -0.17 0.06" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.06"/><path d="M0.09 0.135h0.12v0.12" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.06"/></svg> Reiniciar!'
 }
 
 function handleBoardClick(ev) {
