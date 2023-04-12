@@ -3,7 +3,6 @@
 Este projeto trata-se de um jogo da velha construido apenas com HTML, CSS e JavaScript.
 
 ## Como utilizar
-
 1. Abra o arquivo index.html em seu navegador;
 2. Escolha quem vai começar, X ou O;
 3. Clique em cima de "Jogador X" ou "Jogador O" para acionar o input e digitar o nome de cada jogador;
@@ -17,3 +16,6 @@ Este projeto trata-se de um jogo da velha construido apenas com HTML, CSS e Java
 - HTML5
 - CSS3
 - JavaScript
+
+## Github pages
+https://lucaswsilva.github.io/Jogo-da-velha/
