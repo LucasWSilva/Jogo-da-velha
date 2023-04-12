@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <main>
+        <div class="players-inputs">
+        <div class="form-control">
+        <input type="text" id="player1" required="">
+            <label>
+            <span style="transition-delay:0ms">J</span>
+            <span style="transition-delay:50ms">O</span>
+            <span style="transition-delay:100ms">G</span>
+            <span style="transition-delay:150ms">A</span>
+            <span style="transition-delay:200ms">D</span>
+            <span style="transition-delay:250ms">O</span>
+            <span style="transition-delay:300ms">R</span>
+            <span style="transition-delay:350ms"></span>
+            <span style="transition-delay:400ms">X</span>
+            </label> 
+        </div> 
+        <div class="form-control">
+        <input type="text" id="player2" required="">
+            <label>
+            <span style="transition-delay:0ms">J</span>
+            <span style="transition-delay:50ms">O</span>
+            <span style="transition-delay:100ms">G</span>
+            <span style="transition-delay:150ms">A</span>
+            <span style="transition-delay:200ms">D</span>
+            <span style="transition-delay:250ms">O</span>
+            <span style="transition-delay:300ms">R</span>
+            <span style="transition-delay:350ms"></span>
+            <span style="transition-delay:400ms">O</span>
+            </label> 
+        </div> 
+        </div>    
+
+        <button id="start"><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="#FFFFFF" height="24" width="24" viewBox="0 0 24 24">
+                <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+            </svg> Começar!</button>
+        <h2>Vez de: <span id="turnPlayer"></span></h2>
+        <section id="gameBoard">
+            <span class="cursor-pointer" data-region="0.0"></span>
+            <span class="cursor-pointer" data-region="0.1"></span>
+            <span class="cursor-pointer" data-region="0.2"></span>
+            <span class="cursor-pointer" data-region="1.0"></span>
+            <span class="cursor-pointer" data-region="1.1"></span>
+            <span class="cursor-pointer" data-region="1.2"></span>
+            <span class="cursor-pointer" data-region="2.0"></span>
+            <span class="cursor-pointer" data-region="2.1"></span>
+            <span class="cursor-pointer" data-region="2.2"></span>
+        </section>
+    </main>
+    <footer>
+     <p>Lucas W. Silva © 2023</p>
+    </footer>  
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
