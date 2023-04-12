@@ -1,4 +1,4 @@
-# TIC-TAC-TOE (Jogo da velha
+# TIC-TAC-TOE (Jogo da velha)
 
 Este projeto trata-se de um jogo da velha construido apenas com HTML, CSS e JavaScript.
 
