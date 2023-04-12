@@ -13,9 +13,9 @@ Este projeto trata-se de um jogo da velha construido apenas com HTML, CSS e Java
 8. Para reiniciar o jogo, basta clicar novamente no botão "Reiniciar".
 
 ## Tecnologias utilizadas
-- HTML5
-- CSS3
-- JavaScript
+- <img src="https://img.shields.io/badge/-HTML5-orange"/>
+- <img src="https://img.shields.io/badge/-CSS3-blue" />
+- <img src="https://img.shields.io/badge/-JavaScript-yellow" />
 
 ## Github pages
 https://lucaswsilva.github.io/Jogo-da-velha/
