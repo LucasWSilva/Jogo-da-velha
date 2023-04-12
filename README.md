@@ -10,7 +10,7 @@ Este projeto trata-se de um jogo da velha construido apenas com HTML, CSS e Java
 5. Clique em uma célula vazia para marcar com o seu símbolo;
 6. O jogador que conseguir alinhar três símbolos iguais na vertical, horizontal ou diagonal vence;
 7. Se todas as células forem preenchidas e nenhum jogador vencer, o jogo empata.
-8. Para reiniciar o jogo, basta clicar novamente no botão "Começar".
+8. Para reiniciar o jogo, basta clicar novamente no botão "Reiniciar".
 
 ## Tecnologias utilizadas
 - HTML5
